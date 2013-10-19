@@ -1,6 +1,6 @@
 {
-	"name" : "patlenain/gas-jquery",
-	"description" : "Module JQuery pour GAS",
+	"name" : "patlenain/gas-jqueryui",
+	"description" : "Module JQueryUI pour GAS",
 	"type" : "symfony-bundle",
 	"authors" : [{
 			"name" : "Patrice Le Gurun",
@@ -8,7 +8,7 @@
 		}
 	],
 	"keywords" : [
-		"jquery",
+		"jqueryui",
 		"gas"
 	],
 	"license" : [
@@ -17,15 +17,22 @@
 	],
 	"require" : {
 		"php" : ">=5.4",
-		"symfony/framework-bundle" : ">=2.3"
+		"symfony/framework-bundle" : ">=2.3",
+		"patlenain/gas-jquery": ">=1.0"
 	},
+	"repositories" : [{
+			"name" : "gas-jquery repository",
+			"type" : "vcs",
+			"url" : "git://github.com/patlenain/gas-jquery.git"
+		}
+	],
 	"autoload" : {
 		"psr-0" : {
-			"Patlenain\\GasJQueryBundle" : ""
+			"Patlenain\\GasJQueryUIBundle" : ""
 		}
 	},
-	"target-dir" : "Patlenain/GasJQueryBundle",
+	"target-dir" : "Patlenain/GasJQueryUIBundle",
 	"support" : {
-		"source" : "https://github.com/patlenain/gas-jquery.git"
+		"source" : "https://github.com/patlenain/gas-jqueryui.git"
 	}
 }

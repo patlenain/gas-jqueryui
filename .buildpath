@@ -4,9 +4,10 @@
 	<buildpathentry kind="src" path="vendor/symfony/translation"/>
 	<buildpathentry kind="src" path="vendor/symfony/event-dispatcher"/>
 	<buildpathentry kind="src" path="vendor/doctrine/lexer/lib"/>
+	<buildpathentry kind="src" path="vendor/patlenain/gas-jquery"/>
+	<buildpathentry kind="src" path="vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs"/>
 	<buildpathentry kind="src" path="vendor/symfony/filesystem"/>
 	<buildpathentry kind="src" path="vendor/composer"/>
-	<buildpathentry kind="src" path="vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs"/>
 	<buildpathentry kind="src" path="vendor/symfony/stopwatch"/>
 	<buildpathentry kind="src" path="vendor/symfony/dependency-injection"/>
 	<buildpathentry kind="src" path="vendor/symfony/framework-bundle"/>
@@ -18,8 +19,8 @@
 	<buildpathentry kind="src" path="vendor/symfony/templating"/>
 	<buildpathentry kind="src" path="vendor/doctrine/annotations/lib"/>
 	<buildpathentry kind="src" path="vendor/symfony/http-kernel"/>
-	<buildpathentry kind="src" path="vendor/symfony/debug"/>
 	<buildpathentry kind="src" path="vendor/doctrine/inflector/lib"/>
+	<buildpathentry kind="src" path="vendor/symfony/debug"/>
 	<buildpathentry kind="src" path="vendor/symfony/config"/>
 	<buildpathentry kind="src" path="vendor/doctrine/cache/lib"/>
 </buildpath>
